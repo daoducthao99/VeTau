@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="REPLACE"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ga Đi:"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/ed_di"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ga Đến:"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/ed_den"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don Gia:"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/ed_donGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="50dp">
+        <RadioButton
+            android:id="@+id/rd_mot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Một chiều"
+            android:textSize="20sp"
+            android:layout_marginRight="50dp"/>
+        <RadioButton
+            android:id="@+id/rd_hai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khứ hồi"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_sua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Đồng ý"/>
+        <Button
+            android:id="@+id/btn_huy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Quay về"/>
+    </LinearLayout>
+
+
+</LinearLayout>
